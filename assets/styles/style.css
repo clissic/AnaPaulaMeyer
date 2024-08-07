@@ -1,0 +1,26 @@
+@font-face {
+    font-family: "The-Signature";
+    src: url("../fonts/Thesignature.ttf");
+}
+
+.navbar-custom-bg {
+    background-color: rgb(255, 245, 245);
+}
+
+.navbar-brand h1 {
+    margin: 0;
+    font-family: "The-Signature";
+}
+
+.navbar-end p {
+    font-size: 2.6vw;
+    font-style: oblique;
+    font-family: "The-Signature";
+    text-align: center;
+    color: rgb(50, 50, 50);
+    margin-bottom: 0;
+}
+
+.bi-shield-fill-plus {
+    font-size: smaller;
+}
