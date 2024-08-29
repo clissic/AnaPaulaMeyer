@@ -3,6 +3,11 @@
     src: url("../fonts/Thesignature.ttf");
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
 .navbar-custom-bg {
     background-color: rgb(255, 245, 245);
 }
@@ -23,4 +28,33 @@
 
 .bi-shield-fill-plus {
     font-size: smaller;
+}
+
+.developer-div {
+    display: flex;
+    flex-direction: row;
+}
+
+.developer-div p {
+    margin: 0 0 0 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.developer-div p a:hover {
+    text-decoration: underline;
+}
+
+.logo-jpc {
+    width: 1.5rem;
+}
+
+.footer-brand {
+    margin: 0;
+    text-align: center;
+    font-family: "The-Signature";
+}
+
+.footer-brand h1 {
+    margin: 0;
 }
