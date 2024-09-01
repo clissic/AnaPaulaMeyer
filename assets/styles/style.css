@@ -137,16 +137,18 @@ a {
 
 .body-social-media {
     display: flex;
+    flex-direction: row;
+    column-gap: 10vw;
     height: 30vh;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
     width: 30%;
     margin: 0 auto 0 auto;
     font-size: 4rem;
 }
 
 .body-social-media i {
-    color: rgba(0, 0, 0, 0.459);
+    color: rgba(0, 0, 0, 0.5);
 }
 
 .footer-brand {
