@@ -151,6 +151,29 @@ a {
     color: rgba(0, 0, 0, 0.5);
 }
 
+.just-body {
+    margin-top: 0;
+}
+
+.iframe-just {
+    box-shadow: rgb(240, 240, 240) 0px 0px 20px 10px;
+}
+
+.just-smedia-icons {
+    display: flex;
+    flex-direction: row;
+    column-gap: 5vw;
+    justify-content: center;
+}
+
+.just-smedia-icons a {
+    color: rgb(255, 152, 170);
+}
+
+.just-smedia-icon {
+    font-size: 3rem;
+}
+
 .footer-brand {
     text-align: center;
     font-family: "The-Signature";
