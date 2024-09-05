@@ -175,6 +175,36 @@ a {
     font-size: 3rem;
 }
 
+.dl-img {
+    padding: 5vw;
+}
+
+.dl-article {
+    text-align: justify;
+}
+
+.lf-parallax-text {
+    font-family: "The-Signature";
+    color: white;
+    font-size: 12vw;
+    text-shadow: rgba(0, 0, 0, 0.2) 0px 0px 5px;
+}
+
+.lf-parallax {
+    height: 500px;
+    background-image: url('../images/drenaje-scaled-2560x1280.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.plan-card-img {
+    width: 20vw;
+}
+
 .footer-brand {
     text-align: center;
     font-family: "The-Signature";
