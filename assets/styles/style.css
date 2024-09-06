@@ -201,8 +201,39 @@ a {
     justify-content: center;
 }
 
+.plan-cards {
+    overflow-x: scroll;
+    scrollbar-width: none;
+}
+
+.plan-card {
+    border-bottom: solid 2px rgb(255, 152, 170);
+    height: fit-content;
+}
+
 .plan-card-img {
-    width: 20vw;
+    border-radius: 50%;
+    margin-bottom: 2rem;
+    margin: 2rem;
+    width: 80%;
+    height: 80%;
+}
+
+@media (min-width: 768px) {
+    .plan-card-img {
+      width: 20%;
+    }
+}
+
+.plan-card-text {
+    text-align: justify;
+}
+
+.plan-card-price {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: .5rem 0 .5rem 0;
 }
 
 .footer-brand {
